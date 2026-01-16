@@ -1,11 +1,12 @@
 Para rodar a aplicação necessario substituir o env por 
-`DB_CONNECTION=pgsql
+
+DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
 DB_DATABASE=nomedobanco
 DB_USERNAME=user
 DB_PASSWORD=suasenha
-SESSION_DRIVER=file`
+SESSION_DRIVER=file
 
 Para rodar esse projeto coloque 
 `npm install`
