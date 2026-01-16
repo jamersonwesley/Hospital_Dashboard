@@ -1,6 +1,6 @@
 Para rodar a aplicação necessario substituir o env por 
 
-DB_CONNECTION=pgsql
+DB_CONNECTION=pgsql \n
 DB_HOST=127.0.0.1
 DB_PORT=5432
 DB_DATABASE=nomedobanco
