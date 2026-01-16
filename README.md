@@ -30,7 +30,7 @@ React proporciona uma interface dinâmica e interativa, ideal para dashboards on
 Com React, é possível criar componentes reutilizáveis, como tabelas e gráficos, mantendo o código organizado e fácil de manter.
 
 A integração com bibliotecas de gráficos (Chart.js) permitiu construir visualizações claras e intuitivas, essenciais para que gestores possam tomar decisões rápidas.
-<img width="1538" height="1054" alt="Dashboard Farmacia" src="https://github.com/user-attachments/assets/6deaa5f3-a22c-4ef2-b7e4-ff7506b61ed1" />
+<img width="1538" height="1063" alt="Dashboard Farmacia" src="https://github.com/user-attachments/assets/3e9b6cb8-7e96-46ca-b646-4db2b4d452a7" />
 
 <img width="1538" height="1197" alt="Dashboard Financeiro" src="https://github.com/user-attachments/assets/524b2d15-051d-4661-908a-2ad84f46295a" />
 
