@@ -1,7 +1,8 @@
-Para rodar a aplicação necessario substituir no .env por 
+Para rodar a aplicação necessario substituir no .env por <br/>
 
-DB_CONNECTION=pgsql
+DB_CONNECTION=pgsql <br/>
 SESSION_DRIVER=file
+<br/>
 
 Para rodar esse projeto coloque 
 `npm install`
@@ -30,7 +31,7 @@ React proporciona uma interface dinâmica e interativa, ideal para dashboards on
 Com React, é possível criar componentes reutilizáveis, como tabelas e gráficos, mantendo o código organizado e fácil de manter.
 
 A integração com bibliotecas de gráficos (Chart.js) permitiu construir visualizações claras e intuitivas, essenciais para que gestores possam tomar decisões rápidas.
-<img width="1538" height="1063" alt="Dashboard Farmacia" src="https://github.com/user-attachments/assets/3e9b6cb8-7e96-46ca-b646-4db2b4d452a7" />
+<img width="1538" height="1063" alt="Dashboard Farmacia" src="https://github.com/user-attachments/assets/24417ef7-bbac-4dce-9cdb-77e389b76fe6" />
 
 <img width="1538" height="1197" alt="Dashboard Financeiro" src="https://github.com/user-attachments/assets/524b2d15-051d-4661-908a-2ad84f46295a" />
 
