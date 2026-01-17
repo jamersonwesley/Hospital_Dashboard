@@ -18,7 +18,7 @@ e para rodar o projeto utilize<br/>
 Para este teste técnico, optei por utilizar Laravel no backend criando uma aplicação moderna e escalável para o gerenciamento hospitalar e da farmácia.
 Neste projeto, optei por Laravel no backend e React no frontend. Laravel me permitiu estruturar a aplicação de forma organizada, usando controllers e Eloquent ORM para acessar e manipular os dados do PostgreSQL de maneira segura e eficiente. Com ele, consegui criar APIs RESTful que retornam exatamente os dados que o frontend precisa, garantindo integridade e segurança das informações hospitalares e farmacêuticas.
 
-No frontend, usei React para construir dashboards interativos e dinâmicos. Como os dados mudam constantemente — ocupação de quartos, estoque de medicamentos, curvas de consumo — React facilitou criar componentes reutilizáveis, como tabelas e gráficos, e integrar com Chart.js para visualizações claras.
+No frontend, usei React para construir dashboards interativos e dinâmicos. Como os dados mudam constantemente.ocupação de quartos, estoque de medicamentos,curvas de consumo.React facilitou criar componentes reutilizáveis, como tabelas e gráficos, e integrar com Chart.js para visualizações claras.
 
 A arquitetura Laravel + React foi escolhida justamente por separar responsabilidades: o backend cuida da lógica, consultas e segurança, enquanto o frontend foca na experiência do usuário e na apresentação dos dados de forma intuitiva. Essa separação deixou o projeto escalável, fácil de manter e pronto para receber novas funcionalidades rapidamente.
 <br/>
