@@ -29,19 +29,19 @@ export default function FarmaciaDashboard() {
       .catch(err => console.error(err));
   }, []);
 
-  // Dados do gráfico de curva de consumo
+ 
   const curvaConsumoData = {
     labels: (dados.curvaConsumo || []).map(m => m.nome),
     datasets: [
       {
         label: "Quantidade Prescrita",
         data: (dados.curvaConsumo || []).map(m => m.quantidade_prescrita),
-        backgroundColor: "#FF6666" // vermelho claro
+        backgroundColor: "#FF6666" 
       },
       {
         label: "Quantidade Comprada",
         data: (dados.curvaConsumo || []).map(m => m.quantidade_comprada),
-        backgroundColor: "#1976d2" // azul
+        backgroundColor: "#1976d2" 
       }
     ]
   };
@@ -50,7 +50,7 @@ export default function FarmaciaDashboard() {
     const hoje = new Date();
     const validade = new Date(data_validade);
     const diffTime = validade - hoje;
-    return Math.ceil(diffTime / (1000 * 60 * 60 * 24)); // dias
+    return Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
   };
 
   return (
@@ -84,8 +84,6 @@ export default function FarmaciaDashboard() {
           )}
         </tbody>
       </table>
-
-      {/* Próximos do Vencimento */}
       <h3 style={{ marginTop: 30 }}>Medicamentos Próximos do Vencimento / Vencidos</h3>
       <table width="100%" border="1" cellPadding="8">
         <thead>
