@@ -23,7 +23,7 @@ No frontend, usei React para construir dashboards interativos e dinâmicos. Como
 A arquitetura Laravel + React foi escolhida justamente por separar responsabilidades: o backend cuida da lógica, consultas e segurança, enquanto o frontend foca na experiência do usuário e na apresentação dos dados de forma intuitiva. Essa separação deixou o projeto escalável, fácil de manter e pronto para receber novas funcionalidades rapidamente.
 <br/>
 <img width="1538" height="1063" alt="Dashboard Farmacia" src="https://github.com/user-attachments/assets/24417ef7-bbac-4dce-9cdb-77e389b76fe6" />
+<img width="1538" height="1197" alt="Dashboard Financeiro" src="https://github.com/user-attachments/assets/417de9c4-595c-4bc6-91c4-a7195e9d4eff" />
 
-<img width="1538" height="1197" alt="Dashboard Financeiro" src="https://github.com/user-attachments/assets/524b2d15-051d-4661-908a-2ad84f46295a" />
 
 <img width="1538" height="1932" alt="Dashboard de Ocupacao" src="https://github.com/user-attachments/assets/1a6cf140-2ddf-480f-b208-a90b8355651f" />
