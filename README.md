@@ -1,7 +1,12 @@
 Para rodar a aplicação necessario substituir no .env por <br/>
 
-DB_CONNECTION=pgsql <br/>
-SESSION_DRIVER=file
+DB_CONNECTION=pgsql<br/>
+DB_HOST=seuhost<br/>
+DB_PORT=5432<br/>
+DB_DATABASE=nomedobanco<br/>
+DB_USERNAME=user<br/>
+DB_PASSWORD=senha<br/>
+SESSION_DRIVER=file<br/>
 <br/>
 
 Para rodar esse projeto coloque <br/>
