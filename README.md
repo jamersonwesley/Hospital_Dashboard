@@ -11,7 +11,7 @@ SESSION_DRIVER=file<br/>
 
 Para rodar esse projeto coloque <br/>
 `npm install`<br/>
-e logo no dashboard_hospital rode<br/>
+e logo no front_end rode<br/>
 `npm start`<br/>
 Para instalar esse projeto primeiro rode no example-app<br/>
 `composer install`<br/>
