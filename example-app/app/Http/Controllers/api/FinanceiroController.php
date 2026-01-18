@@ -17,7 +17,7 @@ class FinanceiroController extends Controller
             ->selectRaw('COALESCE(SUM(p.valor), 0) as total')
             ->value('total');
 
-        /*Receita estimada por DIÁRIAS */
+     
         $receitaDiarias = DB::table('internacoes as i')
             ->join('quartos as q', 'q.id', '=', 'i.quarto_id')
             ->selectRaw("
@@ -32,7 +32,7 @@ class FinanceiroController extends Controller
             ")
             ->value('total');
 
-        /*  Top 5 Médicos por PROCEDIMENTOS*/
+  
         $topMedicosProcedimentos = DB::table('agendamentos_procedimentos as ap')
             ->join('medicos as m', 'm.id', '=', 'ap.medico_id')
             ->join('funcionarios as f', 'f.id', '=', 'm.funcionario_id')
